@@ -1,0 +1,129 @@
+2023-04-27 15:58:33,584 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-04-27 15:58:33,590 INFO com.mycompany.propertymanagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 20 on LPT-43JHHR3 with PID 3128 (C:\Users\Suzannah.Barnes\Documents\JavaSpringBoot\property-management\target\classes started by Suzannah.Barnes in C:\Users\Suzannah.Barnes\Documents\JavaSpringBoot\property-management)
+2023-04-27 15:58:33,591 INFO com.mycompany.propertymanagement.PropertyManagementApplication [main] The following 1 profile is active: "local"
+2023-04-27 15:58:34,093 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 15:58:34,148 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2023-04-27 15:58:34,626 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-27 15:58:34,632 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-27 15:58:34,633 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-04-27 15:58:34,633 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-27 15:58:34,704 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-27 15:58:34,704 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1073 ms
+2023-04-27 15:58:34,727 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-04-27 15:58:34,883 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-04-27 15:58:34,894 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/pmsdb'
+2023-04-27 15:58:35,025 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-27 15:58:35,067 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-27 15:58:35,179 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-27 15:58:35,266 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-27 15:58:35,700 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-27 15:58:35,705 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 15:58:36,016 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 15:58:36,263 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-27 15:58:36,283 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 15:58:36,290 INFO com.mycompany.propertymanagement.PropertyManagementApplication [main] Started PropertyManagementApplication in 3.046 seconds (JVM running for 3.319)
+2023-04-27 15:58:45,942 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 15:58:45,942 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-27 15:58:45,943 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-04-27 15:58:46,124 INFO com.mycompany.propertymanagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] business exception is thrown info: EMAIL_ALREADY_EXISTS - Email already in use.
+2023-04-27 15:58:46,125 WARN com.mycompany.propertymanagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] business exception is thrown warn: EMAIL_ALREADY_EXISTS - Email already in use.
+2023-04-27 15:58:46,125 ERROR com.mycompany.propertymanagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] business exception is thrown error: EMAIL_ALREADY_EXISTS - Email already in use.
+2023-04-27 15:59:05,752 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 15:59:05,753 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-04-27 15:59:05,755 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-04-27 15:59:08,250 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-04-27 15:59:08,259 INFO com.mycompany.propertymanagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 20 on LPT-43JHHR3 with PID 22112 (C:\Users\Suzannah.Barnes\Documents\JavaSpringBoot\property-management\target\classes started by Suzannah.Barnes in C:\Users\Suzannah.Barnes\Documents\JavaSpringBoot\property-management)
+2023-04-27 15:59:08,259 INFO com.mycompany.propertymanagement.PropertyManagementApplication [main] The following 1 profile is active: "local"
+2023-04-27 15:59:08,775 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 15:59:08,818 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2023-04-27 15:59:09,271 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-27 15:59:09,277 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-27 15:59:09,277 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-04-27 15:59:09,277 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-27 15:59:09,348 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-27 15:59:09,348 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1049 ms
+2023-04-27 15:59:09,371 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-04-27 15:59:09,524 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-04-27 15:59:09,531 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/pmsdb'
+2023-04-27 15:59:09,639 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-27 15:59:09,685 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-27 15:59:09,798 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-27 15:59:09,891 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-27 15:59:10,303 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-27 15:59:10,311 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 15:59:10,637 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 15:59:10,876 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-27 15:59:10,900 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 15:59:10,908 INFO com.mycompany.propertymanagement.PropertyManagementApplication [main] Started PropertyManagementApplication in 2.99 seconds (JVM running for 3.26)
+2023-04-27 15:59:21,401 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 15:59:21,401 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-27 15:59:21,402 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-04-27 15:59:21,559 INFO com.mycompany.propertymanagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] business exception is thrown info: EMAIL_ALREADY_EXISTS - Email already in use.
+2023-04-27 15:59:21,560 WARN com.mycompany.propertymanagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] business exception is thrown warn: EMAIL_ALREADY_EXISTS - Email already in use.
+2023-04-27 15:59:21,560 ERROR com.mycompany.propertymanagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] business exception is thrown error: EMAIL_ALREADY_EXISTS - Email already in use.
+2023-04-27 16:18:44,830 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 16:18:44,831 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-04-27 16:18:44,833 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-04-27 16:18:52,008 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-04-27 16:18:52,020 INFO com.mycompany.propertymanagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 20 on LPT-43JHHR3 with PID 16900 (C:\Users\Suzannah.Barnes\Documents\JavaSpringBoot\property-management\target\classes started by Suzannah.Barnes in C:\Users\Suzannah.Barnes\Documents\JavaSpringBoot\property-management)
+2023-04-27 16:18:52,021 INFO com.mycompany.propertymanagement.PropertyManagementApplication [main] The following 1 profile is active: "local"
+2023-04-27 16:18:52,537 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 16:18:52,597 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2023-04-27 16:18:53,068 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-27 16:18:53,076 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-27 16:18:53,076 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-04-27 16:18:53,077 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-27 16:18:53,154 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-27 16:18:53,154 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1093 ms
+2023-04-27 16:18:53,178 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-04-27 16:18:53,345 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-04-27 16:18:53,354 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/pmsdb'
+2023-04-27 16:18:53,472 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-27 16:18:53,521 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-27 16:18:53,656 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-27 16:18:53,757 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-27 16:18:54,178 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-27 16:18:54,183 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 16:18:54,504 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 16:18:54,735 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-27 16:18:54,757 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 16:18:54,764 INFO com.mycompany.propertymanagement.PropertyManagementApplication [main] Started PropertyManagementApplication in 3.098 seconds (JVM running for 3.381)
+2023-04-27 16:19:01,184 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 16:19:01,184 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-04-27 16:19:01,185 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2023-04-27 16:19:01,375 INFO com.mycompany.propertymanagement.exception.CustomExceptionHandler [http-nio-8080-exec-2] business exception is thrown info: EMAIL_ALREADY_EXISTS - Email already in use.
+2023-04-27 16:19:01,376 WARN com.mycompany.propertymanagement.exception.CustomExceptionHandler [http-nio-8080-exec-2] business exception is thrown warn: EMAIL_ALREADY_EXISTS - Email already in use.
+2023-04-27 16:19:01,376 ERROR com.mycompany.propertymanagement.exception.CustomExceptionHandler [http-nio-8080-exec-2] business exception is thrown error: EMAIL_ALREADY_EXISTS - Email already in use.
+2023-04-27 16:21:28,787 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 16:21:28,789 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-04-27 16:21:28,790 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-04-27 16:21:31,471 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-04-27 16:21:31,483 INFO com.mycompany.propertymanagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 20 on LPT-43JHHR3 with PID 23104 (C:\Users\Suzannah.Barnes\Documents\JavaSpringBoot\property-management\target\classes started by Suzannah.Barnes in C:\Users\Suzannah.Barnes\Documents\JavaSpringBoot\property-management)
+2023-04-27 16:21:31,484 INFO com.mycompany.propertymanagement.PropertyManagementApplication [main] The following 1 profile is active: "local"
+2023-04-27 16:21:32,015 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 16:21:32,068 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2023-04-27 16:21:32,514 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-27 16:21:32,520 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-27 16:21:32,521 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-04-27 16:21:32,521 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-27 16:21:32,595 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-27 16:21:32,595 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1065 ms
+2023-04-27 16:21:32,620 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-04-27 16:21:32,785 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-04-27 16:21:32,792 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/pmsdb'
+2023-04-27 16:21:32,892 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-27 16:21:32,937 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-27 16:21:33,095 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-27 16:21:33,181 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-27 16:21:33,619 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-27 16:21:33,624 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 16:21:33,932 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 16:21:34,162 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-27 16:21:34,183 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 16:21:34,189 INFO com.mycompany.propertymanagement.PropertyManagementApplication [main] Started PropertyManagementApplication in 3.063 seconds (JVM running for 3.357)
+2023-04-27 16:21:37,477 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 16:21:37,478 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-27 16:21:37,479 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-04-27 16:21:37,653 INFO com.mycompany.propertymanagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] business exception is thrown info: EMAIL_ALREADY_EXISTS - Email already in use.
+2023-04-27 16:21:37,653 WARN com.mycompany.propertymanagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] business exception is thrown warn: EMAIL_ALREADY_EXISTS - Email already in use.
+2023-04-27 16:21:37,653 ERROR com.mycompany.propertymanagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] business exception is thrown error: EMAIL_ALREADY_EXISTS - Email already in use.
