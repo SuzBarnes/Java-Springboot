@@ -20,4 +20,9 @@ public class UserController {
         userModel = userService.register(userModel);
         return  new ResponseEntity<>(userModel, HttpStatus.CREATED);
     }
+    @PostMapping("/login")
+    public ResponseEntity<UserModel> login(@RequestBody UserModel userModel){
+        userModel = userService.login(userModel.getOwnerEmail(), userModel.getPassword());
+        return  new ResponseEntity<>(userModel, HttpStatus.OK);
+    }
 }
