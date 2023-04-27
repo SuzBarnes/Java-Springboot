@@ -30,7 +30,7 @@ public class CalculatorController {
 
         Double result = null;
         result = calculatorModel.getNum1()*calculatorModel.getNum2()*calculatorModel.getNum3()*calculatorModel.getNum4();
-        ResponseEntity<Double> responseEntity = new ResponseEntity<Double>(result, HttpStatus.CREATED);
-        return responseEntity;
+        return new ResponseEntity<Double>(result, HttpStatus.CREATED);
+
     }
 }

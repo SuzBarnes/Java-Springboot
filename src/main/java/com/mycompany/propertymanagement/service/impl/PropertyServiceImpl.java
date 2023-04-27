@@ -32,7 +32,6 @@ public class PropertyServiceImpl implements PropertyService {
 
     @Override
     public List<PropertyModel> getAllProperties() {
-        System.out.println("Inside service " + dummy);
         List<PropertyEntity> listOfProperties = (List<PropertyEntity>)propertyRepository.findAll();
         List<PropertyModel> propertyList = new ArrayList<>();
         for(PropertyEntity pe: listOfProperties){

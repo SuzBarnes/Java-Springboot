@@ -30,7 +30,6 @@ public class PropertyController {
     }
     @GetMapping("/properties")
     public ResponseEntity<List<PropertyModel>> getAllProperties(){
-        System.out.println(dummy);
        List<PropertyModel> propertyList =  propertyService.getAllProperties();
         ResponseEntity<List<PropertyModel>> responseEntity = new ResponseEntity<>(propertyList, HttpStatus.OK);
         return responseEntity;
